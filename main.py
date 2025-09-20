@@ -141,7 +141,7 @@ Example of a perfect, complete output:
 # --- Combined Agent Function ---
 def get_structured_response(text, pdf):
     # WARNING: Hardcoding API keys is a major security risk.
-    api_key = os.getenv("API_KEY")
+    api_key = os.getenv("GOOGLE_API_KEY")
     if not api_key:
         return "Error: GOOGLE_API_KEY is not set."
 
